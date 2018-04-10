@@ -8,6 +8,9 @@ using Xamarin.Forms.Maps;
 
 namespace TheMapApp
 {
+    // Creates a map that fixes the map's location on a desired position    
+    // Also will allow the addition of pins
+
     public class BindableMap : Map
     {
 
