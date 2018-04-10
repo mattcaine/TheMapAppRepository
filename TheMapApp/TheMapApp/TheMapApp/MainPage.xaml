@@ -6,6 +6,7 @@
              x:Class="TheMapApp.MainPage">
     <maps:Map MapType="Street" />
 
+    <local:BindableMap MapType="Street" MapPosition="{Binding MyPosition}" MapPins="{Binding PinCollection}" />
 
 </ContentPage>
 
