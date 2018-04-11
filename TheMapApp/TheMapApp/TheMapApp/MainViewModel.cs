@@ -32,8 +32,11 @@ namespace TheMapApp
         private ObservableCollection<Pin> _pinCollection = new ObservableCollection<Pin>();
         public ObservableCollection<Pin> PinCollection { get { return _pinCollection; } set { _pinCollection = value; OnPropertyChanged(); } }
 
+
         private Position _myPosition = new Position(-37.8141, 144.9633);
         public Position MyPosition { get { return _myPosition; } set { _myPosition = value; OnPropertyChanged(); } }
+
+
 
     }
 }
